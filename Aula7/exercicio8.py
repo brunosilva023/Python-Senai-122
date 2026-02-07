@@ -30,22 +30,20 @@ medida1 = int(input('Digite a primeira medida:'))
 medida2 = int(input('Digite a segunda medida:'))
 medida3 = int(input('Digite a terceira medida:'))
 
-if medida1== medida2 or medida3:
-    print('é um triangulo equilatero')
+if medida1== medida2==medida3:
+    print('é um triangulo equilatero, pois todos os lados possuem a mesma medida.')
+if medida1 == medida2 or medida3:
+    print('é um triangulo isósceles, pois dois lados possuem a mesma medida ')
+else:
+    print('é um triangulo escaleno, pois todos os lados possuem medidas diferentes')
+
+print('\n5 Determine se um número é múltiplo de 5 e 7.')
 
 
-# Um triângulo é chamado de equilátero se todos os lados possuem a mesma medida. 
-# Um triângulo é chamado de isósceles se dois lados possuem a mesma medida. 
-# Um triângulo é chamado de escaleno se todos os lados possuem medidas diferentes.
 
-# 5*
+print('\n6 Verifique se um número é positivo e maior que 10')
 
-	# Determine se um número é múltiplo de 5 e 7.
 
-# 6*
 
-# Verifique se um número é positivo e maior que 10
+print('\n7 Verifique se um número é divisível por 3 ou 5.')
 
-# 7*
-
-# Verifique se um número é divisível por 3 ou 5.
