@@ -30,20 +30,42 @@ medida1 = int(input('Digite a primeira medida:'))
 medida2 = int(input('Digite a segunda medida:'))
 medida3 = int(input('Digite a terceira medida:'))
 
-if medida1== medida2==medida3:
+if medida1== medida2==medida3==medida1:
     print('é um triangulo equilatero, pois todos os lados possuem a mesma medida.')
-if medida1 == medida2 or medida3:
-    print('é um triangulo isósceles, pois dois lados possuem a mesma medida ')
+if medida1 != medida2 != medida3!= medida1:
+    print('é um triangulo escaleno, pois dois lados possuem a mesma medida ')
 else:
-    print('é um triangulo escaleno, pois todos os lados possuem medidas diferentes')
+    print('é um triangulo isosceles, pois todos os lados possuem medidas diferentes')
 
 print('\n5 Determine se um número é múltiplo de 5 e 7.')
+numero = int(input('Digite um numero:'))
+resto5 = numero%5
+resto7 = numero%7
 
-
+if resto5==0:
+    print('o numero informado  foi :', numero, 'então ele é é multiplo de 5')
+elif resto7==0:
+    print('o numero informado  foi :', numero, 'então ele é é multiplo de 7')
+else:
+    print('o numero informado  foi :', numero, 'então ele não é multiplo de 5 e 7')
 
 print('\n6 Verifique se um número é positivo e maior que 10')
-
-
+numero = int(input('Digite um numero:'))
+if numero >=0 and numero>10:
+    print('o numero digitado foi :', numero, 'Então ele é positivo e maior que 10')
+elif numero>=0 and numero<=10:
+    print('o numero digitado foi :', numero, 'Então ele é  positivo,maior que zero e menor ou igual que 10')
+else: 
+    print('o numero digitado foi :', numero, 'Então ele é negativo')
 
 print('\n7 Verifique se um número é divisível por 3 ou 5.')
+numero = int(input('Digite um numero:'))
+resto3 = numero%3
+resto5 = numero%5
 
+if resto3==0:
+    print('o numero informado  foi :', numero, 'então ele é é divisivel de 3')
+elif resto5==0:
+    print('o numero informado  foi :', numero, 'então ele é é divisivel de 5')
+else:
+    print('o numero informado  foi :', numero, 'então ele não é divisivel de 3 e 5')
