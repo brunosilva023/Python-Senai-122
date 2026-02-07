@@ -37,10 +37,10 @@ medida3 = int(input('Digite a terceira medida:'))
 
 if medida1== medida2==medida3==medida1:
     print('é um triangulo equilatero, pois todos os lados possuem a mesma medida.')
-if medida1 != medida2 != medida3!= medida1:
-    print('é um triangulo escaleno, pois dois lados possuem a mesma medida ')
+if medida1 != medida2 !=medida1 != medida3 !=medida2 != medida1 !=medida2 != medida3!=medida3 != medida2 !=medida3 != medida1:
+    print('é um triangulo isosceles, pois possuem as medidas diferentes ')
 else:
-    print('é um triangulo isosceles, pois todos os lados possuem medidas diferentes')
+    print('é um triangulo escaleno, pois todos os lados possuem duas medidas diferentes')
 
 print('------'*20)
 
