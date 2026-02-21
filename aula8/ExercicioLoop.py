@@ -37,8 +37,8 @@ dados = {
     'notas':[],
 }
 
-print('realize seu cadastro:')
-
+print('realize seu cadastro')
+print ()
 login = input('cadastre seu login: ')
 senha = input('cadastre a sua senha:')
 dados['login'].append(login)
@@ -56,27 +56,32 @@ while  p == 'sim':
 
         if alogin == dados['login'][0] and asenha == dados['senha'][0]:
             print('Sistema de notas')
+            print()
             print("Informe as respectivas notas")
-
-            nota1= input("Informe a primeira nota")
-            nota2= input("Informe a primeira nota")
-            nota3= input("Informe a primeira nota")
-
+            print()
+            nome= input("Digite o nome do aluno: ")
+            print()
+            nota1= int(input("Informe a primeira nota : "))
+            nota2= int(input("Informe a segunda nota : "))
+            nota3= int(input("Informe a terceira nota : "))
+            print()
             media = (nota1+nota2+nota3)/3
-
-            print(media)
-
-        else:
+            print()
+            print(' a média do aluno : ',nome , 'é' ,media)
+            while media>=7:
+                print("Aprovado")
+                break
+            while media >=5:
+                 print('Recuperação')
+                 break
+            else:
+                 print('reprovado')
+                 break
+            print()
+            print()
+        print("obrigado")
+    else:
             print('ditação de senha e login incorreta')
             print('conta bloqueada')
-            break
+            
 else: print("obrigado")
-
-# - Inserir notas (se Senha correta)
-
-
-# - Fazer a média
-
-
-
-# - Utilize ***loops for, while, condicionais, variáveis, listas, tuplas ou dicionários…***1

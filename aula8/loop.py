@@ -48,4 +48,52 @@ while perg == 'sim':
 else:
     print('Obrigado volte sempre! ')
 
+# for   -  sim
+# while - sim
 
+
+
+
+dados = {
+'produtos' : []
+}
+
+
+# for produto in range(5):
+#     prod =  input('Digite o nome de um produto: ')
+#     dados['produtos'].append(prod)
+# print(dados)
+
+
+
+# for dado in dados.values():
+#     print(dado)
+
+
+
+# perg =  input('Deseja comprar? sim ou não ')
+
+
+# while perg == 'sim':
+#     prod = input('nome do produto: ')
+#     dados['produtos'].append(prod)
+    
+#     print(dados)
+#     perg =  input('Deseja continuar? sim ou não ')
+# else:
+#     print('Obrigado volte sempre! ')
+
+
+
+
+# c = 10
+# while c > 0 :
+#     print(c)
+#     c  =  c  - 1
+    
+# for x in range(10,0,-1):
+#     print(x)
+
+
+# for n in range(0,11):
+#     print(n)

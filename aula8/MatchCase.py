@@ -1,4 +1,7 @@
-# # ***EXERCÍCIOS com match/ case:*** 
+print('EXERCÍCIOS com match/case:') 
+
+'---------------------------'
+
 
 print('1: Verificando se o número é par ou ímpar')
 numero = int(input('numero : '))
