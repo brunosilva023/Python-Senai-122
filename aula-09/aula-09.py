@@ -52,18 +52,18 @@
 #         print("ZeroDivisionError")
 # calcular()
 
-print("Crie uma lista e um índice como entrada e retorne o índice. Manipule a exceção caso o índice seja inválido(caso imprima um indice que não exista na lista")
+# print("Crie uma lista e um índice como entrada e retorne o índice. Manipule a exceção caso o índice seja inválido(caso imprima um indice que não exista na lista")
 
-l = [0,1,2,3,4,5]
-indice = int(input("Informe o indice desejado:"))
-c=0
-resultado = l[indice]
+# l = [0,1,2,3,4,5]
+# indice = int(input("Informe o indice desejado:"))
+# c=0
+# resultado = l[indice]
 
-def calcular():
-    try:
-        for resultado in l:
-            print("o indice é ",l) 
-    except:
-        print("indice invalido")
+# def calcular():
+#     try:
+#         for resultado in l:
+#             print("o indice é ",l) 
+#     except:
+#         print("indice invalido")
 
-calcular()
+# calcular()
