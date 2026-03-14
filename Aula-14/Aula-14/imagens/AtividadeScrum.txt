@@ -1,0 +1,38 @@
+
+
+
+
+01 -- PO
+- Validar as entregas (aceitar ou rejeitar resultados)
+- Decidir o que será desenvolvido em cada Sprint. 
+Habilidades: Visão de negócio, comunicação clara e capacidade de priorização.
+
+
+02 -- Scrum Master
+
+- Facilitar eventos como Daily, Planning, Review e Retrospective.  
+- Remover impedimentos que atrapalham o time.  
+- Proteger o time de interferências externas.
+
+Habilidades: Liderança servidora, resolução de conflitos e conhecimento ágil.
+
+
+
+03-- Líder equipe de TI
+
+- Ajudar a equipe a resolver desafios técnicos complexos.  
+- Mentoria para desenvolvedores menos experientes.  
+- Participar de decisões sobre tecnologias e ferramentas.
+
+Habilidades: Conhecimento técnico aprofundado e capacidade de mentoria. 
+
+
+04-- Equipe de tecnologia
+
+- Auto-organização para distribuir tarefas.  
+- Participar ativamente dos eventos do Scrum.  
+- Estimar esforço das tarefas (Planning Poker).  
+- Ajudar a melhorar processos (Retrospectivas).  
+
+Habilidades: Colaboração, autonomia e habilidades técnicas. 
+ 
