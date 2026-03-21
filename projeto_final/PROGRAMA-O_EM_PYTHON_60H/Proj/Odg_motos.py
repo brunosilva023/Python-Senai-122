@@ -126,6 +126,18 @@ def atualizar_banco():
     conn.commit()
     conn.close()
 
+# def filtrar():
+#     # email = entrey_email.get()
+
+    
+
+#     conn = sqlite3.connect('clientes.db')
+#     cursor = conn.cursor()
+#     cursor.execute('SELECT * FROM clientes  WHERE id = ?', (email,)')
+#     for row in cursor.fetchall():
+#         print(row)
+#         tree.insert('', tk.END, values=row)    
+
 atualizar_banco()
 
 root = tk.Tk()
@@ -137,8 +149,8 @@ try:
 
             img_open = Image.open("odg-removebg-preview.png")
             img_resized = img_open.resize((100, 100))
-            self.logo_img = ImageTk.PhotoImage(img_resized)
-            tk.Label(root, image=self.logo_img).pack(pady=5)
+            logo_img = ImageTk.PhotoImage(img_resized)
+            tk.Label(root, image=logo_img).pack(pady=5)
 except:
             tk.Label(root, text="ODG MOTOS", font=("Arial", 20, "bold")).pack()
 
